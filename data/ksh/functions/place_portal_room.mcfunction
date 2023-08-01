@@ -1,0 +1,1 @@
+execute as @e[tag=kshPortalPlacer] at @s if score $kshPlacedPortal kshPlacedPortal matches ..1 run place jigsaw ksh:normal/portal minecraft:entrance 7 ~ ~-0.5 ~

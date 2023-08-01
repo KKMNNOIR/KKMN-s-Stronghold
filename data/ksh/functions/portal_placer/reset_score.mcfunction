@@ -1,0 +1,1 @@
+scoreboard players reset $kshPlacedPortal kshPlacedPortal

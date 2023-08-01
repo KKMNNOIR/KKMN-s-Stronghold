@@ -1,0 +1,33 @@
+{
+    
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": {
+                    "processors": [
+                        {
+                            "processor_type": "minecraft:block_ignore",
+                            "blocks": [
+                                {
+                                    "Name": "minecraft:air"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "location": "ksh:normal/mobs/prison/allay"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:empty_pool_element",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

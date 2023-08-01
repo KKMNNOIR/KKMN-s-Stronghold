@@ -1,0 +1,27 @@
+{
+  "type": "ksh:development_room",
+  "generator": {
+    "settings": {
+      "lakes": false,
+      "features": false,
+      "biome": "vanilla_plus:development_room",
+      "structure_overrides": [],
+      "layers": [
+        {
+          "height": 1,
+          "block": "minecraft:bedrock"
+        },
+        {
+          "height": 59,
+          "block": "minecraft:stone"
+        },
+        {
+          "height": 3,
+          "block": "minecraft:smooth_stone"
+        }
+      ]
+    },
+    "type": "minecraft:flat",
+    "seed": 0
+  }
+}

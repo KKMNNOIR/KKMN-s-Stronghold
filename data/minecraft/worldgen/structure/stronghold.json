@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:has_structure/stronghold",
+    "start_pool": "ksh:normal/start",
+    "step": "strongholds",
+    "spawn_overrides": {},
+    "terrain_adaptation": "bury",
+    "size": 7,
+    "start_height": {
+        "type": "minecraft:constant",
+        "value": {
+            "absolute": 33
+        }
+    },
+    "max_distance_from_center": 112,
+    "use_expansion_hack": false
+}

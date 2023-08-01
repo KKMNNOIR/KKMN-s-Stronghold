@@ -1,0 +1,102 @@
+{
+    "processors": [
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:stone_bricks",
+                        "probability": 0.3
+                    },
+                    "output_state": {
+                        "Name": "minecraft:mossy_stone_bricks"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:stone_bricks",
+                        "probability": 0.2
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cracked_stone_bricks"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:end_stone_bricks",
+                        "probability": 0.05
+                    },
+                    "output_state": {
+                        "Name": "minecraft:infested_stone_bricks"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:stone_bricks",
+                        "probability": 0.05
+                    },
+                    "output_state": {
+                        "Name": "minecraft:infested_mossy_stone_bricks"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:stone_bricks",
+                        "probability": 0.05
+                    },
+                    "output_state": {
+                        "Name": "minecraft:infested_cracked_stone_bricks"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:cobblestone",
+                        "probability": 0.05
+                    },
+                    "output_state": {
+                        "Name": "minecraft:infested_cobblestone"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:air"
+                        },
+                        "probability": 0.028571
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cobweb"
+                    }
+                }
+            ]
+        }
+    ]
+}

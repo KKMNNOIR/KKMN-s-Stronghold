@@ -1,0 +1,2 @@
+execute as @e[tag=kshSetButton] at @s positioned ^ ^ ^ run function ksh:place_stone_button
+execute as @e[tag=kshPortalPlacer] at @s unless dimension ksh:development_room run function ksh:portal_placer/check
