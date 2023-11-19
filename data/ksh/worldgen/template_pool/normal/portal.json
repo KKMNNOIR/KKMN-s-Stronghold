@@ -1,6 +1,6 @@
 {
     
-    "fallback": "ksh:normal/portal",
+    "fallback": "ksh:normal/stairs",
     "elements": [
         {
             "weight": 1,

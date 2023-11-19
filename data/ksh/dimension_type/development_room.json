@@ -12,7 +12,7 @@
     "piglin_safe": false,
     "has_skylight": true,
     "has_ceiling": false,
-    "min_y": 0,
+    "min_y": -64,
     "height": 1024,
     "monster_spawn_block_light_limit": 0,
     "monster_spawn_light_level": {

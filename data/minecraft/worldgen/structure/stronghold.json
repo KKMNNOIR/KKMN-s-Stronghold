@@ -5,7 +5,7 @@
     "step": "strongholds",
     "spawn_overrides": {},
     "terrain_adaptation": "bury",
-    "size": 7,
+    "size": 9,
     "start_height": {
         "type": "minecraft:constant",
         "value": {
@@ -13,5 +13,77 @@
         }
     },
     "max_distance_from_center": 112,
-    "use_expansion_hack": false
+    "use_expansion_hack": false,
+    "pool_aliases": [
+        {
+            "type": "minecraft:direct",
+            "alias": "ksh:gates",
+            "target": "ksh:normal/gates"
+        },
+        {
+            "type": "minecraft:random_group",
+            "groups": [
+                {
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_4",
+                            "target": "ksh:normal/to_portal/portal_4"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_except_stairs_4",
+                            "target": "ksh:normal/to_portal/portal_4"
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_5",
+                            "target": "ksh:normal/to_portal/portal_5"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_except_stairs_5",
+                            "target": "ksh:normal/to_portal/portal_5"
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_6",
+                            "target": "ksh:normal/to_portal/portal_6"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_except_stairs_6",
+                            "target": "ksh:normal/to_portal/portal_6"
+                        }
+                    ],
+                    "weight": 3
+                },
+                {
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_7",
+                            "target": "ksh:normal/to_portal/portal_7"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_except_stairs_7",
+                            "target": "ksh:normal/to_portal/portal_7"
+                        }
+                    ],
+                    "weight": 4
+                }
+            ]
+        }
+    ]
 }

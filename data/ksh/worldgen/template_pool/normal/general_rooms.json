@@ -3,7 +3,7 @@
     "fallback": "ksh:normal/terminator",
     "elements": [
         {
-            "weight": 6,
+            "weight": 24,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -12,7 +12,7 @@
             }
         },
         {
-            "weight": 6,
+            "weight": 24,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -21,7 +21,7 @@
             }
         },
         {
-            "weight": 6,
+            "weight": 24,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -30,7 +30,7 @@
             }
         },
         {
-            "weight": 6,
+            "weight": 24,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -39,7 +39,7 @@
             }
         },
         {
-            "weight": 4,
+            "weight": 24,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -48,7 +48,7 @@
             }
         },
         {
-            "weight": 4,
+            "weight": 24,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -57,7 +57,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 18,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -66,7 +66,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 18,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -75,7 +75,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -84,7 +84,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -93,7 +93,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -102,7 +102,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -111,7 +111,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -120,7 +120,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -237,7 +237,7 @@
             }
         },
         {
-            "weight": 5,
+            "weight": 24,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -246,25 +246,7 @@
             }
         },
         {
-            "weight": 5,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ksh:normal/stone_bricks_decorations",
-                "location": "ksh:normal/large_room/fountain_room"
-            }
-        },
-        {
-            "weight": 5,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ksh:normal/stone_bricks_decorations",
-                "location": "ksh:normal/large_room/pillar_room"
-            }
-        },
-        {
-            "weight": 4,
+            "weight": 24,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -273,7 +255,16 @@
             }
         },
         {
-            "weight": 3,
+            "weight": 24,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/large_room/storeroom_mirror"
+            }
+        },
+        {
+            "weight": 24,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -282,7 +273,7 @@
             }
         },
         {
-            "weight": 3,
+            "weight": 24,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -291,7 +282,7 @@
             }
         },
         {
-            "weight": 3,
+            "weight": 24,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -300,7 +291,7 @@
             }
         },
         {
-            "weight": 3,
+            "weight": 24,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -309,39 +300,21 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 12,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "ksh:normal/library_decorations",
-                "location": "ksh:normal/other_rooms/library_2f"
+                "location": "ksh:normal/other_rooms/library_lower"
             }
         },
         {
-            "weight": 2,
+            "weight": 12,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "ksh:normal/library_decorations",
-                "location": "ksh:normal/other_rooms/library_2f_mirror"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ksh:normal/stone_bricks_decorations",
-                "location": "ksh:normal/portal/portal_1"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ksh:normal/stone_bricks_decorations",
-                "location": "ksh:normal/portal/portal_2"
+                "location": "ksh:normal/other_rooms/library_lower_mirror"
             }
         }
     ]
