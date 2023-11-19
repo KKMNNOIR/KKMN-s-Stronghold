@@ -4,7 +4,7 @@
     "settings": {
       "lakes": false,
       "features": false,
-      "biome": "vanilla_plus:development_room",
+      "biome": "ksh:development_room",
       "structure_overrides": [],
       "layers": [
         {
