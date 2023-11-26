@@ -5,7 +5,7 @@
     "step": "strongholds",
     "spawn_overrides": {},
     "terrain_adaptation": "bury",
-    "size": 9,
+    "size": 13,
     "start_height": {
         "type": "minecraft:constant",
         "value": {
@@ -27,6 +27,536 @@
                     "data": [
                         {
                             "type": "minecraft:direct",
+                            "alias": "ksh:normal/general_rooms_a",
+                            "target": "ksh:normal/to_portal/general_rooms_1"
+                        },
+                        {
+                            "type": "minecraft:random_group",
+                            "groups": [
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_b",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_c",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_d",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_e",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_f",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_g",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/general_rooms_b",
+                            "target": "ksh:normal/to_portal/general_rooms_1"
+                        },
+                        {
+                            "type": "minecraft:random_group",
+                            "groups": [
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_a",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_c",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_d",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_e",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_f",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_g",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/general_rooms_c",
+                            "target": "ksh:normal/to_portal/general_rooms_1"
+                        },
+                        {
+                            "type": "minecraft:random_group",
+                            "groups": [
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_a",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_b",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_d",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_e",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_f",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_g",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/general_rooms_d",
+                            "target": "ksh:normal/to_portal/general_rooms_1"
+                        },
+                        {
+                            "type": "minecraft:random_group",
+                            "groups": [
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_a",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_b",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_c",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_e",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_f",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_g",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/general_rooms_e",
+                            "target": "ksh:normal/to_portal/general_rooms_1"
+                        },
+                        {
+                            "type": "minecraft:random_group",
+                            "groups": [
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_a",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_b",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_c",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_d",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_f",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_g",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/general_rooms_f",
+                            "target": "ksh:normal/to_portal/general_rooms_1"
+                        },
+                        {
+                            "type": "minecraft:random_group",
+                            "groups": [
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_b",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_c",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_d",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_e",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_a",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_g",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/general_rooms_g",
+                            "target": "ksh:normal/to_portal/general_rooms_1"
+                        },
+                        {
+                            "type": "minecraft:random_group",
+                            "groups": [
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_b",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_c",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_d",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_e",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_f",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                },
+                                {
+                                    "data": [
+                                        {
+                                            "type": "minecraft:direct",
+                                            "alias": "ksh:normal/general_rooms_a",
+                                            "target": "ksh:normal/to_portal/general_rooms_1"
+                                        }
+                                    ],
+                                    "weight": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "type": "minecraft:random_group",
+            "groups": [
+                {
+                    "data": [
+                        {
+                            "type": "minecraft:direct",
                             "alias": "ksh:normal/to_portal/general_rooms_4",
                             "target": "ksh:normal/to_portal/portal_4"
                         },
@@ -34,6 +564,36 @@
                             "type": "minecraft:direct",
                             "alias": "ksh:normal/to_portal/general_rooms_except_stairs_4",
                             "target": "ksh:normal/to_portal/portal_4"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_5",
+                            "target": "ksh:normal/to_portal/portal_5"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_except_stairs_5",
+                            "target": "ksh:normal/to_portal/portal_5"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_6",
+                            "target": "ksh:normal/to_portal/portal_6"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_except_stairs_6",
+                            "target": "ksh:normal/to_portal/portal_6"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_7",
+                            "target": "ksh:normal/to_portal/portal_7"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_except_stairs_7",
+                            "target": "ksh:normal/to_portal/portal_7"
                         }
                     ],
                     "weight": 2
@@ -49,6 +609,26 @@
                             "type": "minecraft:direct",
                             "alias": "ksh:normal/to_portal/general_rooms_except_stairs_5",
                             "target": "ksh:normal/to_portal/portal_5"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_6",
+                            "target": "ksh:normal/to_portal/portal_6"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_except_stairs_6",
+                            "target": "ksh:normal/to_portal/portal_6"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_7",
+                            "target": "ksh:normal/to_portal/portal_7"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_except_stairs_7",
+                            "target": "ksh:normal/to_portal/portal_7"
                         }
                     ],
                     "weight": 2
@@ -64,6 +644,16 @@
                             "type": "minecraft:direct",
                             "alias": "ksh:normal/to_portal/general_rooms_except_stairs_6",
                             "target": "ksh:normal/to_portal/portal_6"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_7",
+                            "target": "ksh:normal/to_portal/portal_7"
+                        },
+                        {
+                            "type": "minecraft:direct",
+                            "alias": "ksh:normal/to_portal/general_rooms_except_stairs_7",
+                            "target": "ksh:normal/to_portal/portal_7"
                         }
                     ],
                     "weight": 3
