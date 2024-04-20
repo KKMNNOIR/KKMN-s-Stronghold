@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "slowness": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                      "condition": "minecraft:entity_scores",
+                      "entity": "this",
+                      "scores": {
+                        "kshInfestedStage": {
+                          "min": 2
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:inverted",
+                      "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                          "effects": {
+                            "minecraft:slowness": {
+                              "amplifier": {
+                                "min": 0
+                              },
+                              "duration": {
+                                "min": -1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "ksh:infested/slowness"
+    }
+}

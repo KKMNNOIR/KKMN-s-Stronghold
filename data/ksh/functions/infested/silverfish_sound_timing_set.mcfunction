@@ -1,0 +1,1 @@
+$execute store result score @s kshSileverfishSoundTiming run function ksh:infested/random_silverfish_sound with storage ksh:silverfish_sound_timing data[{UUID:$(UUID)}]

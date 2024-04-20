@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "always_true_when_infested_stage_above_3": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "kshInfestedStage": {
+                                "min": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "ksh:infested/silverfish_sound_timing"
+    }
+}

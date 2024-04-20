@@ -1,0 +1,51 @@
+{
+    "criteria": {
+        "when_player_is_not_infested": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "effects": {
+                                    "minecraft:infested": {
+                                        "amplifier": {
+                                            "min": 0
+                                        },
+                                        "duration": {
+                                            "min": -1
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "kshInfestedStage": {
+                                "min": {
+                                    "type": "minecraft:score",
+                                    "score": "kshInfestedStage",
+                                    "target": "this"
+                                },
+                                "max": {
+                                    "type": "minecraft:score",
+                                    "target": "this",
+                                    "score": "kshInfestedStage"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "ksh:infested/clear_infested"
+    }
+}

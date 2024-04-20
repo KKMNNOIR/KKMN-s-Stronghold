@@ -1,0 +1,39 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "kshSilverfishSummonedCount": {
+                    "max": {
+                        "type": "minecraft:score",
+                        "score": "kshInfestedStageSquare",
+                        "target": "this"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "entity_scores",
+                "entity": "this",
+                "scores": {
+                    "kshSilverfishSummonedCount": {
+                        "min": {
+                            "type": "minecraft:score",
+                            "score": "kshSilverfishSummonedCount",
+                            "target": "this"
+                        },
+                        "max": {
+                            "type": "minecraft:score",
+                            "score": "kshSilverfishSummonedCount",
+                            "target": "this"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
