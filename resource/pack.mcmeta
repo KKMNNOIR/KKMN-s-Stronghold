@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 39,
+        "supported_formats": [
+            18,
+            39
+        ],
+        "description": "for KKMN's Stronghold"
+    }
+}
