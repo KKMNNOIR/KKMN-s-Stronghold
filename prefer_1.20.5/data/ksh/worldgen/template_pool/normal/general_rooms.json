@@ -1,0 +1,321 @@
+{
+    
+    "fallback": "ksh:normal/terminator",
+    "elements": [
+        {
+            "weight": 24,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/corridor/3_ways_left"
+            }
+        },
+        {
+            "weight": 24,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/corridor/3_ways_right"
+            }
+        },
+        {
+            "weight": 24,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/corridor/4_ways"
+            }
+        },
+        {
+            "weight": 24,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/corridor/straight"
+            }
+        },
+        {
+            "weight": 24,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/other_rooms/bridge_crossing"
+            }
+        },
+        {
+            "weight": 24,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/other_rooms/bridge_crossing_mirror"
+            }
+        },
+        {
+            "weight": 18,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/corridor/loot_alter"
+            }
+        },
+        {
+            "weight": 18,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/corridor/loot_alter_mirror"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/stair_straight_1"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/stair_straight_2"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/stair_straight_3"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/stair_straight_4"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/stair_straight_5"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/stair_straight_6"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/spiral_staircase_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/spiral_staircase_1_mirror"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/spiral_staircase_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/spiral_staircase_2_mirror"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/spiral_staircase_3"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/spiral_staircase_3_mirror"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/spiral_staircase_4"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/spiral_staircase_4_mirror"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/spiral_staircase_5"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/spiral_staircase_5_mirror"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/spiral_staircase_6"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/staircase/spiral_staircase_6_mirror"
+            }
+        },
+        {
+            "weight": 24,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/large_room/empty_room"
+            }
+        },
+        {
+            "weight": 24,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/large_room/storeroom"
+            }
+        },
+        {
+            "weight": 24,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/large_room/storeroom_mirror"
+            }
+        },
+        {
+            "weight": 24,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/other_rooms/jail_cell"
+            }
+        },
+        {
+            "weight": 24,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/other_rooms/jail_cell_mirror"
+            }
+        },
+        {
+            "weight": 24,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/corridor/turn_left"
+            }
+        },
+        {
+            "weight": 24,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/corridor/turn_right"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/library_decorations",
+                "location": "ksh:normal/other_rooms/library_lower"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/library_decorations",
+                "location": "ksh:normal/other_rooms/library_lower_mirror"
+            }
+        }
+    ]
+}

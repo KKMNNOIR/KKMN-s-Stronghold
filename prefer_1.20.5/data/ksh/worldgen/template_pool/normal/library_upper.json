@@ -1,0 +1,23 @@
+{
+    "fallback": "ksh:normal/library_ceiling",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/library_decorations",
+                "location": "ksh:normal/other_rooms/library_upper"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/library_decorations",
+                "location": "ksh:normal/other_rooms/library_upper_mirror"
+            }
+        }
+    ]
+}

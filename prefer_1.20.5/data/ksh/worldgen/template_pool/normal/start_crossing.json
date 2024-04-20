@@ -1,0 +1,32 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/start_crossing/entrance"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/start_crossing/entrance_mirror"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/entrance_rot",
+                "location": "ksh:normal/start_crossing/entrance_fountain"
+            }
+        }
+    ]
+}

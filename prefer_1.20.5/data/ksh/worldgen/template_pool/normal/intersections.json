@@ -1,0 +1,61 @@
+{
+    
+    "fallback": "ksh:normal/terminator",
+    "elements": [
+
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/other_rooms/bridge_crossing_no_gate"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/other_rooms/bridge_crossing_no_gate_mirror"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/large_room/empty_room_no_gate"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/large_room/fountain_room_no_gate"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/large_room/pillar_room_no_gate"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/large_room/storeroom_no_gate"
+            }
+        }
+    ]
+}
