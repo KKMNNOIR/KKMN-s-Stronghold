@@ -1,0 +1,15 @@
+{
+    "feature": "ksh:normal/set_stone_button",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 10
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:true"
+            }
+        }
+    ]
+}

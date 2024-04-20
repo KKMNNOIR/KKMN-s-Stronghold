@@ -1,0 +1,13 @@
+{
+    "fallback": "ksh:normal/set_stone_button",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:feature_pool_element",
+                "projection": "rigid",
+                "feature": "ksh:normal/set_stone_button"
+            }
+        }
+    ]
+}

@@ -4,43 +4,28 @@
         {
             "weight": 1,
             "element": {
-                "element_type": "minecraft:list_pool_element",
+                "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "elements": [
-                    {
-                        "element_type": "minecraft:single_pool_element",
-                        "projection": "rigid",
-                        "processors": "ksh:normal/stone_bricks_decorations",
-                        "location": "ksh:normal/start_crossing/entrance"
-                    },
-                    {
-                        "element_type": "minecraft:single_pool_element",
-                        "projection": "rigid",
-                        "processors": "ksh:normal/entrance_rot",
-                        "location": "ksh:normal/start_crossing/entrance_mossy_fountain"
-                    }
-                ]
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/start_crossing/entrance"
             }
         },
         {
             "weight": 1,
             "element": {
-                "element_type": "minecraft:list_pool_element",
+                "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "elements": [
-                    {
-                        "element_type": "minecraft:single_pool_element",
-                        "projection": "rigid",
-                        "processors": "ksh:normal/stone_bricks_decorations",
-                        "location": "ksh:normal/start_crossing/entrance_mirror"
-                    },
-                    {
-                        "element_type": "minecraft:single_pool_element",
-                        "projection": "rigid",
-                        "processors": "ksh:normal/entrance_rot",
-                        "location": "ksh:normal/start_crossing/entrance_mossy_fountain"
-                    }
-                ]
+                "processors": "ksh:normal/stone_bricks_decorations",
+                "location": "ksh:normal/start_crossing/entrance_mirror"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "ksh:normal/entrance_rot",
+                "location": "ksh:normal/start_crossing/entrance_fountain"
             }
         }
     ]

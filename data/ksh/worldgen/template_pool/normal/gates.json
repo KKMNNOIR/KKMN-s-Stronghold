@@ -15,7 +15,7 @@
             "element": {
                 "element_type": "minecraft:legacy_single_pool_element",
                 "projection": "rigid",
-                "processors": "minecraft:empty",
+                "processors": "ksh:normal/stone_bricks_decorations",
                 "location": "ksh:normal/gate/iron_door"
             }
         },
@@ -24,7 +24,7 @@
             "element": {
                 "element_type": "minecraft:legacy_single_pool_element",
                 "projection": "rigid",
-                "processors": "minecraft:empty",
+                "processors": "ksh:normal/stone_bricks_decorations",
                 "location": "ksh:normal/gate/wooden_door"
             }
         },

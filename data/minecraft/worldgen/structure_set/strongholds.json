@@ -5,12 +5,7 @@
     "distance": 32,
     "preferred_biomes": "#minecraft:stronghold_biased_to",
     "salt": 0,
-    "spread": 3,
-    "locate_offset": [
-        16,
-        0,
-        16
-    ]
+    "spread": 3
   },
   "structures": [
     {

@@ -3,7 +3,7 @@
     "fallback": "ksh:normal/terminator",
     "elements": [
         {
-            "weight": 1,
+            "weight": 50,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -12,7 +12,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 50,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -21,7 +21,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 50,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -30,7 +30,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 50,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -39,7 +39,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 50,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -48,7 +48,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 50,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -57,7 +57,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 50,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -66,7 +66,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 50,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -75,7 +75,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 50,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -84,7 +84,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 50,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -179,25 +179,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "ksh:normal/stone_bricks_decorations",
-                "location": "ksh:normal/to_portal_4/staircase/spiral_staircase_1_mirror"
-            }
-        },
-        {
-           "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ksh:normal/stone_bricks_decorations",
                 "location": "ksh:normal/to_portal_4/staircase/spiral_staircase_2_mirror"
-            }
-        },
-        {
-           "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ksh:normal/stone_bricks_decorations",
-                "location": "ksh:normal/to_portal_4/staircase/spiral_staircase_3_mirror"
             }
         },
         {
@@ -215,20 +197,11 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "ksh:normal/stone_bricks_decorations",
-                "location": "ksh:normal/to_portal_4/staircase/spiral_staircase_5_mirror"
-            }
-        },
-        {
-           "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "ksh:normal/stone_bricks_decorations",
                 "location": "ksh:normal/to_portal_4/staircase/spiral_staircase_6_mirror"
             }
         },
         {
-            "weight": 1,
+            "weight": 4,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -237,7 +210,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 4,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -246,7 +219,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 4,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -309,7 +282,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -318,7 +291,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -327,7 +300,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 50,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
@@ -336,7 +309,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 50,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",

@@ -497,6 +497,10 @@
                     }
                 }
             ]
+        },
+        {
+            "processor_type": "minecraft:protected_blocks",
+            "value": "#ksh:stronghold_blocks"
         }
     ]
 }
